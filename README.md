@@ -1,10 +1,20 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js](https://nextjs.org/) project bundled with React Stripe.js, Stripe.js and Stripe's Node SDK for serverless functions.
 
 ## Getting Started
 
 First, run the development server:
 
-```bash
+Run the following command to create a new project with this Starter:
+
+```
+yarn create next-app [project-name] -e https://github.com/mikeshaw-stripe/next-stripe-starter
+# or
+npx create-next-app [project-name] -e https://github.com/mikeshaw-stripe/next-stripe-starter
+```
+
+to run the development server:
+
+```
 npm run dev
 # or
 yarn dev
