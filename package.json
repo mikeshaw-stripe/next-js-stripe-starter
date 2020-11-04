@@ -1,7 +1,8 @@
 {
-  "name": "next-js-stripe-starter",
+  "name": "next-stripe-starter",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -10,6 +11,8 @@
   "dependencies": {
     "@stripe/react-stripe-js": "^1.1.2",
     "@stripe/stripe-js": "^1.11.0",
+    "dotenv": "^8.2.0",
+    "micro": "^9.3.4",
     "next": "10.0.0",
     "react": "17.0.1",
     "react-dom": "17.0.1",

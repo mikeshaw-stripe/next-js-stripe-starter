@@ -1,5 +1,7 @@
 This is a [Next.js](https://nextjs.org/) project bundled with React Stripe.js, Stripe.js and Stripe's Node SDK for serverless functions.
 
+It can also handle webhooks via its `/api/webhook` url
+
 ## Getting Started
 
 First, run the development server:
@@ -10,6 +12,14 @@ Run the following command to create a new project with this Starter:
 yarn create next-app [project-name] -e https://github.com/mikeshaw-stripe/next-stripe-starter
 # or
 npx create-next-app [project-name] -e https://github.com/mikeshaw-stripe/next-stripe-starter
+```
+
+Then create a `.env` file and pop in your Stripe Keys:
+
+```bash
+# Stripe keys
+STRIPE_PUBLISHABLE_KEY=pk_test_123
+STRIPE_SECRET_KEY=sk_test_123
 ```
 
 to run the development server:

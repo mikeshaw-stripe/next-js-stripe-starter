@@ -1,0 +1,11 @@
+{
+  "env": {
+    "STRIPE_SECRET_KEY": "@stripe_secret_key",
+    "STRIPE_WEBHOOK_SECRET_KEY": "@stripe_webhook_secret_key"
+  },
+  "build": {
+    "env": {
+      "STRIPE_PUBLISHABLE_KEY": "@stripe_publishable_key"
+    }
+  }
+}
